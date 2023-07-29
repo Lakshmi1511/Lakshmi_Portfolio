@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./colors/color-1.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Anton&family=Arizonia&family=Bebas+Neue&family=Gloock&family=Great+Vibes&family=Island+Moments&family=Italianno&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora&family=Merriweather:wght@300&family=Noto+Serif+Ahom&family=Oswald&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@0,300;0,900;1,100&family=Roboto:ital,wght@0,100;0,300;1,100&family=Solway&family=Tangerine&family=Tourney:wght@100&display=swap"
+        rel="stylesheet">
+
+    <!-- style switcher -->
+    <link rel="stylesheet" href="./colors/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="./colors/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./colors/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./colors/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./colors/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./colors/style-switcher.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- aside  -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>P</span>rofile</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#Home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#About"><i class="fa fa-user"></i> About</a></li>
+
+                <li><a href="#Services"><i class="fa fa-list"></i> Services</a></li>
+
+                <li><a href="#Portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+
+                <li><a href="#Contact"><i class="fa fa-comments"></i> Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="main-content">
+            <!-- home section -->
+            <section class="home active section " id="Home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15" style="margin-bottom: 15px;">
+                            <h3 class="hello">Hi, I'am <span class="name">Lakshmi Mohan</span></h3>
+                            <h3 class="my-profession">A &nbsp; <span class="type" style="color: var(--skin-color);">
+                                </span></h3>
+                            <p>As a MERN stack developer, I specialize in building full-stack web applications using
+                                MongoDB, Express.js, React, and Node.js. With a strong foundation in front-end
+                                development, I have experience in creating responsive and interactive user interfaces
+                                using modern Javascript frameworks like React and Angular.</p>
+                            <div style="text-align: center;"> <a href="#About" data-section-index="1"
+                                    class="btn hire-me">Know More About Me &nbsp;<i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="./images/lakshmi.JPG" alt="photo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section -->
+            <section class="about  section " id="About">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <p>I'm <span>Lakshmi Mohan</span> a skilled MEAN & MERN stack web
+                                        developer with a passion for creating user-friendly responsive websites. With
+                                        expertise in modern frameworks like React, Angular, and Node.js, I have a
+                                        proven track record of delivering high-quality web applications that meet client
+                                        needs. </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info ">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Email :<span> lakshmimohan90@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Birthday :<span> 02 Aug 1990</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone :<span> +91 9446775881</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Place :<span> Kerala, India</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree : <span> Masters in Computer Application (MCA)</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Languages :<span> English, Malayalam, Hindi</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="./images/Lakshmi Resume.pdf" download="Lakshmi_Mohan_resume"
+                                                class="btn">Download Resume &nbsp;<i
+                                                    class="fa-solid fa-download"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML:5</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 89%;"></div>
+                                                <div class="skill-percent">89%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>CSS & BOOTSTRAP</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JAVASCRIPT</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>ANGULAR/TYPESCRIPT</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>NODE.JS/EXPRESS.JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>MONGODB</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%;"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>REACT</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%;"></div>
+                                                <div class="skill-percent">65%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>REACT BOOTSTRAP</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 65%;"></div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box  padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2023-present
+                                                    </h3>
+                                                    <h4 class="timeline-title">MEA(R)N stack developer Intern</h4>
+                                                    <p><span
+                                                            style="font-size: 12px; color: var(--skin-color); margin-top: -10px;">Luminar
+                                                            TechnoLab Kochi</span>
+                                                    <ul>
+                                                        <li>Worked in the environment of Mongodb, node.js and its
+                                                            framework express.js</li>
+
+                                                        <li> Made exprience in the ﬁeld of Angular,TypeScript,and
+                                                            Angular material UI.</li>
+
+                                                        <li>Take in the method of API service calls</li>
+
+                                                        <li>Made a grasp on Netlify.com, vercel, Git, GitHub and Render
+                                                            to deploy websites. </li>
+
+                                                        <li>Made a good understanding of React environment and done
+                                                            projects</li>
+
+                                                        <li>Performed presentation on both MERN and MEAN projects.</li>
+
+                                                    </ul>
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2018 - 2023
+                                                    </h3>
+                                                    <h4 class="timeline-title">Frontend Developer</h4>
+                                                    <p>
+                                                        <span
+                                                            style="font-size: 12px; color: var(--skin-color); margin-top: -10px;">Globoose
+                                                            Technology Solutions, Rajasthan,India</span>
+                                                    <ul>
+                                                        <li> Developed a dynamic front-end to your application using a
+                                                            modern
+                                                            framework used to create single-page apps, such as Vue,
+                                                            React</li>
+                                                        <li>Collaborate within a team using an agile development
+                                                            workflow</li>
+                                                        <li>Designed layout responsive web applications</li>
+                                                        <li> Built secure full-stack web applications according to
+                                                            common design
+                                                            patterns</li>
+                                                        <li>Used modern JavaScript browser application frameworks</li>
+                                                        <li> Developed web applications using HTML, CSS, JavaScript and
+                                                            TypeScript</li>
+                                                    </ul>
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2018 - 2018
+                                                    </h3>
+                                                    <h4 class="timeline-title">System Developer</h4>
+                                                    <p>
+                                                        <span
+                                                            style="font-size: 12px; color: var(--skin-color); margin-top: -10px;">Upright Consulting AB,
+                                                             Bromma,Sweden</span>
+                                                    <ul>
+                                                        <li>As a system developer, voluntarily improve the knowledge in new technologies.</li>
+                                                        <li> Have knowledge and experience of architectural concepts.</li>
+                                                        <li> Have the ability to communicate about problems and solutions.</li>
+                                                        <li> Have a good knowledge in object-oriented development. </li>
+                                                        <li>Experience in designing Responsive design.</li>
+                                                        <li>Worked with design tools HTML, CSS, Bootstrap</li>
+                                                    </ul>
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2015 - 2017
+                                                    </h3>
+                                                    <h4 class="timeline-title">Associate Developer</h4>
+                                                    <p>
+                                                        <span
+                                                            style="font-size: 12px; color: var(--skin-color); margin-top: -10px;">Speridian
+                                                            Technologies, Kochi,India</span>
+                                                    <ul>
+                                                        <li> Analyzing, Designing, Coding and implementing several
+                                                            modules in projects.</li>
+                                                        <li> Developed SQL Queries and Monitored database using SQL.
+                                                        </li>
+                                                        <li> Configure, maintain and support production databases.</li>
+                                                        <li>Perform unit test and fix bugs</li>
+                                                        <li>Experience with WPF, WCF, HTML, CSS and Agile Development
+                                                            Model.</li>
+                                                        <li> Developed UI and worked with UI design Issues.</li>
+                                                        <li> Professional Experience with .NET 4.0 / ASP.NET / MVC /
+                                                            MVVM /SQL Server 2008 / ANGULAR JS REACT JS.</li>
+                                                        <li>Strong concepts of Object-Oriented Analysis and Design, Data
+                                                            Structures, and SQL Query Writing.</li>
+                                                        
+
+                                                    </ul>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box  padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i>2011-2014
+                                                    </h3>
+                                                    <h4 class="timeline-title">Master of Computer Application</h4>
+                                                    <p><span
+                                                            style="font-size: 12px; color: var(--skin-color); margin-top: -10px;">Saintgits
+                                                            College of Engineering, Kottayam</span>
+                                                    <ul>
+                                                        <li>I have done my Masters in computer application
+                                                            from Saintgits College of Engineering, Kottayam under
+                                                            Mahatma Gandhi
+                                                            University. During these three years of
+                                                            education, I have done a major project, mini projects and
+                                                            seminars in different areas of computer science. </li>
+
+
+                                                    </ul>
+                                                    </p>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- service section -->
+            <section class="service section " id="Services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <h4>Frontend</h4>
+                                <p>HTML5, CSS, Bootstrap and JavaScript technologies </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa-brands fa-angular"></i>
+                                </div>
+                                <h4>MEAN Stack</h4>
+                                <p>Angular at the frontend, on the server side, Express.js (the framework of Node.js)
+                                    and MongoDB as the database.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa-brands fa-react"></i>
+                                </div>
+                                <h4>MERN</h4>
+                                <p>React at the frontend, on the server side, Express.js (the framework of Node.js) and
+                                    MongoDB as the database.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa-brands fa-microsoft"></i>
+                                </div>
+                                <h4>Microsoft office PowerPoint</h4>
+                                <p>Microsoft office PowerPoint for Project Presentation</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa-brands fa-buysellads"></i>
+                                </div>
+                                <h4>Adobe</h4>
+                                <p>Adobe Photoshop,Illustrator softwares are used as desigining tools.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                                <h4>Basic Programming</h4>
+                                <p>Basic programming languages such as C ,C++,& .NET</p>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- section portfolio -->
+            <section class="portfolio section " id="Portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>Recent Projects</h2>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <video width="100%" height="315" src="./videos/restaurant.mp4" type="video/mp4"
+                                        controls></video>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <video width="100%" height="315" src="./videos/bookstore.mp4" type="video/mp4"
+                                        controls></video>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <video width="100%" height="315" src="./videos/ecart.mp4" type="video/mp4"
+                                        controls></video>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <video width="100%" height="315" src="./videos/bank.mp4" type="video/mp4"
+                                        controls></video>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <video width="100%" height="315" src="./videos/weather.mp4" type="video/mp4"
+                                        controls></video>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <video width="100%" height="315" src="./videos/Travel_Website.mp4" type="video/mp4"
+                                        controls></video>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact section -->
+            <section class="contact section" id="Contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title">Have any Queries ? </h3>
+
+                    <div class="row ">
+                        <div class="contact-info-item padd-15">
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <h4>Email</h4>
+                            <p>lakshmimohan90@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <h4>Call Me On</h4>
+                            <p>+91 9446775881</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon">
+                                <i class="fa fa-share-nodes"></i>
+                            </div>
+                            <h4>social Media</h4>
+                            <p><a href="https://github.com/Lakshmi1511" target="_blank" class="github"><i
+                                        class="fa-brands fa-github fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/in/lakshmi-mohan-03b56a12b/" target="_blank"
+                                    class="linkedin ms-3"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                            </p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon">
+                                <i class="fa fa-location-dot"></i>
+                            </div>
+
+                            <h4>Address</h4>
+                            <p>Kottayam , kerala , India</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    <!-- style switcher -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <!-- <h4>Color theme</h4> -->
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- js file -->
+    <script src="./script.js"></script>
+    <script src="./style-switcher.js"></script>
+    <!-- for typing effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+
+    </script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ['MEA(R)N Stack Developer', 'MEA(R)N Stack Developer'],
+            typeSpeed: 100,
+            BackSpeed: 100,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
